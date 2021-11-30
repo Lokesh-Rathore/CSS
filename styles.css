@@ -57,6 +57,19 @@ body {
   padding: 20px 50px;
   color: black;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+  
+}
+
+.btn:hover{
+  cursor: pointer;
+  background: linear-gradient(
+    135deg,
+    rgb(240, 98, 146, 1) 0%,
+    rgba(240, 98, 146, 1) 50%,
+    rgb(179, 229, 252, 1) 50%,
+    rgb(179, 229, 252, 1) 100%
+  );
+
 }
 
 @media only screen and (max-width: 600px) {
